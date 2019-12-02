@@ -1,6 +1,5 @@
 {
     "version": 2,
-    "alias": ["blog.diansadulloh.com"],
     "builds": [
       { "src": "wp-config.php", "use": "@now/wordpress" },
       { "src": "wp-content/**", "use": "@now/static" },
